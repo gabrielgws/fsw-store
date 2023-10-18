@@ -93,8 +93,10 @@ export const Header = () => {
         </SheetContent>
       </Sheet>
 
-      <Link href="/" className="font-semibold text-lg">
-        <span className="text-primary">FSW</span> Store
+      <Link href="/">
+        <h1 className="font-semibold text-lg">
+          <span className="text-primary">FSW</span> Store
+        </h1>
       </Link>
 
       <Button size="icon" variant="outline">
